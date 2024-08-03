@@ -25,7 +25,5 @@ class TicTacToeFacadeTest {
     @Test
     void testStartGame() {
         facade.startGame();
-        // You can add assertions or checks here if needed.
-        // Given the interactive nature, ensure no exceptions were thrown.
     }
 }
