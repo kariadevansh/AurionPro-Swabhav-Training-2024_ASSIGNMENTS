@@ -10,6 +10,10 @@ public class TicTacToeFacade {
         scanner = new Scanner(System.in);
         System.out.println("Enter the Grid size (to create a square matrix): ");
         int size = scanner.nextInt();
+        if(size<3) {
+        	System.out.println("Enter a size equal to or greater than 3! :");
+        	size = scanner.nextInt();
+        }
         gameLogic = new GameLogic(size); 
     }
 
